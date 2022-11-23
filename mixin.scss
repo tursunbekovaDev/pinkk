@@ -1,0 +1,178 @@
+$font-sizes: 35px;
+$font-size: 40px;
+$color: rgb(255, 255, 255);
+@mixin header {
+  background: #26272B54;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+}
+
+@mixin around {
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin align {
+  display: flex;
+  align-items: center;
+}
+
+@mixin text-align {
+  font-weight: 300;
+  text-align: center;
+}
+
+@mixin evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin content-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin btn {
+  width: 250px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 29px;
+  background: transparent;
+  transition: .4s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@mixin center {
+  justify-content: center;
+  display: flex;
+
+}
+
+@mixin slider {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+@mixin offers {
+  padding: 60px 0;
+  width: 688px;
+  height: 73px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@mixin next {
+  width: 75%;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+@mixin centeres {
+  text-align: center;
+  font-size: 15px;
+  color: #D22856;
+}
+
+@mixin have {
+  width: 43%;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 68px;
+}
+
+@mixin fixed {
+  text-align: center;
+  font-size: 15px;
+  color: #283645;
+}
+
+@mixin border {
+  border: 18px solid #D22856;
+  border-radius: 50%;
+}
+
+@mixin shrift {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+}
+
+@mixin blue {
+  color: #283645;
+  font-size: 18px;
+}
+
+@mixin align-text {
+  align-items: center;
+  text-align: center;
+}
+
+@mixin close {
+  width: 233px;
+  height: 94px;
+  background: #283645;
+  border: 2px solid #F2F2F2;
+  border-radius: 1px 0 0 0;
+  display: flex;
+}
+
+@mixin valute {
+  color: rgba(255, 255, 255, 0.81);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+@mixin grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 50%;
+}
+
+@mixin year {
+  width: 234px;
+  height: 59px;
+  background: #FFFFFF;
+  border: 2px solid #E5E5E5;
+  border-radius: 1px 0 0 0;
+}
+@mixin imgs{
+  position: absolute;
+  width: 170px;
+  top: 43px;
+  left: 8px;
+}
+@mixin pink{
+  position: absolute;
+  height: 179px;
+  background: #F2F2F2;
+  top: 45vh;
+}

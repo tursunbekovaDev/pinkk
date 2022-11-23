@@ -1,0 +1,1163 @@
+@media (max-width: 1200px) {
+  #tables {
+    .tables {
+      &--nica {
+        margin-left: 47%;
+
+        &__close1 {
+          width: 175px;
+        }
+
+        &__close {
+          width: 177px;
+        }
+      }
+
+      &--helps {
+        &__year {
+          width: 175px;
+        }
+      }
+    }
+  }
+  #offers {
+    .offers {
+      &--hand {
+        right: 226px;
+        bottom: 217px;
+
+        iframe {
+          width: 150px;
+          height: 268px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #offers {
+    .offers {
+      img {
+        width: 71%;
+      }
+
+      &--hand {
+        right: 107px;
+        bottom: 231px;
+
+        iframe {
+          width: 140px;
+          height: 256px
+        }
+      }
+    }
+  }
+  #tables {
+    .tables {
+      &--nica {
+        margin-left: 64%;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #offers {
+    .offers {
+      &--phone {
+        margin-left: 59px;
+      }
+
+      &--hand {
+        right: 151px;
+        bottom: 230px;
+
+        iframe {
+          width: 137px;
+          height: 250px;
+        }
+      }
+    }
+  }
+  #tables {
+    .tables {
+      &--helps {
+        width: 54%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #offers {
+    .offers {
+      &--phone {
+        &__live {
+          width: 64%;
+          font-size: 27px;
+        }
+
+        &__btn {
+          margin: 6px 0;
+          width: 176px;
+          height: 44px;
+        }
+
+        &__icon {
+          width: 83%;
+          padding: 13px 0;
+          font-size: 26px;
+        }
+
+        &__brand {
+          font-size: 12px;
+        }
+      }
+
+      &--hand {
+        right: 119px;
+        bottom: 305px;
+
+        iframe {
+          width: 109px;
+          height: 193px;
+        }
+      }
+    }
+
+  }
+
+  #phones {
+    .phones {
+      &--circle {
+        &__world {
+          &--pink {
+            margin-top: 29vh;
+
+            &__next {
+              padding: 15px 0;
+              font-size: 14px;
+              width: 88%;
+            }
+
+            &__fixed {
+              width: 126px;
+              font-size: 10px;
+            }
+          }
+
+          &--image {
+            &__apple {
+              &--img {
+                width: 100px;
+                top: 29px;
+              }
+
+              &--data {
+                width: 115px;
+              }
+            }
+          }
+        }
+
+        &__stand {
+          &--pink {
+            margin-top: 29vh;
+
+            &__next {
+              padding: 15px 0;
+              font-size: 14px;
+              width: 88%;
+            }
+
+            &__fixed {
+              width: 126px;
+              font-size: 10px;
+            }
+          }
+
+          &--image {
+            &__apple {
+              &--img {
+                width: 100px;
+                top: 29px;
+              }
+
+              &--data {
+                width: 115px;
+              }
+            }
+          }
+        }
+
+        &__help {
+          &--pink {
+            margin-top: 29vh;
+
+            &__next {
+              padding: 15px 0;
+              font-size: 14px;
+              width: 88%;
+            }
+
+            &__fixed {
+              width: 126px;
+              font-size: 10px;
+            }
+          }
+
+          &--image {
+            &__apple {
+              &--img {
+                width: 100px;
+                top: 29px;
+              }
+
+              &--data {
+                width: 115px;
+              }
+            }
+          }
+        }
+      }
+
+      &--word {
+        &__have {
+          width: 51%;
+          font-size: 26px;
+        }
+      }
+    }
+  }
+
+  #time {
+    padding: 0 0 100px 0;
+
+    .time {
+      &--clock {
+        img {
+          width: 60%;
+        }
+
+        &__times {
+          font-size: 55px;
+          top: 80px;
+          left: 62px;
+        }
+
+        &__watch {
+          width: 117px;
+          height: 116px;
+          top: 48px;
+          left: 20px;
+          border: 10px solid #D22856;
+        }
+      }
+
+      &--effect {
+        &__they {
+          font-size: 25px;
+        }
+
+        &__shrift {
+          font-size: 13px;
+        }
+
+        &__know a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  #smil {
+    .smil {
+      .swiper-slide {
+        &__offer {
+          padding: 60px 0;
+          width: 602px;
+        }
+      }
+    }
+  }
+
+  #tables {
+    .tables {
+      &--nica {
+        margin-left: 46%;
+
+        &__close {
+          width: 115px;
+
+          &--smail {
+            font-size: 18px;
+
+          }
+
+          &--valute {
+            font-size: 11px;
+          }
+        }
+
+        &__close1 {
+          width: 115px;
+
+          &--webs {
+            position: relative;
+            width: 45px;
+
+            p {
+              top: 8px;
+              left: 4px;
+            }
+
+            img {
+              width: 100%;
+            }
+          }
+
+          &--one {
+            margin-right: 10px;
+
+            &--smail {
+              font-size: 10px;
+
+            }
+
+            &__valute {
+              font-size: 9px;
+            }
+          }
+        }
+      }
+
+      &--helps {
+        &__year {
+          width: 114px;
+
+          p {
+            color: #283645;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  #social {
+    .social {
+      &--network {
+        width: 25%;
+      }
+    }
+  }
+
+  #cards {
+    .cards {
+      &--email {
+        &__telphone a {
+          font-size: 10px;
+        }
+
+        &__telphone {
+          &--call {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+  #header {
+    background: #283645;
+    height: 50px;
+
+    .header {
+      &__hamburger {
+        &__menu {
+          .menu {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+
+          .menu > li {
+            margin: 0 1rem;
+            overflow: hidden;
+          }
+
+          #menu-toggle {
+            display: none;
+          }
+
+          .menu-button,
+          .menu-button::before,
+          .menu-button::after {
+            display: block;
+            background-color: #fff;
+            position: absolute;
+            height: 4px;
+            width: 30px;
+            transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+            border-radius: 2px;
+          }
+
+          .menu-button::before {
+            content: '';
+            margin-top: -8px;
+          }
+
+          .menu-button::after {
+            content: '';
+            margin-top: 8px;
+          }
+
+          #menu-toggle:checked + .menu-button-container .menu-button::before {
+            margin-top: 0;
+            transform: rotate(405deg);
+          }
+
+          #menu-toggle:checked + .menu-button-container .menu-button {
+            background: rgba(255, 255, 255, 0);
+          }
+
+          #menu-toggle:checked + .menu-button-container .menu-button::after {
+            margin-top: 0;
+            transform: rotate(-405deg);
+          }
+
+          @media (max-width: 700px) {
+            .menu-button-container {
+              display: flex;
+            }
+            .menu {
+              position: absolute;
+              top: 0;
+              margin-top: 50px;
+              left: 0;
+              flex-direction: column;
+              width: 100%;
+              justify-content: center;
+              align-items: center;
+            }
+            #menu-toggle ~ .menu li {
+              height: 0;
+              margin: 0;
+              padding: 0;
+              border: 0;
+              transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+            }
+            #menu-toggle:checked ~ .menu li {
+              border: 1px solid #333;
+              height: 2.5em;
+              padding: 0.5em;
+              transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+            }
+            .menu > li {
+              display: flex;
+              justify-content: center;
+              margin: 0;
+              padding: 0.5em 0;
+              width: 100%;
+              color: white;
+              background-color: #283645;
+            }
+            .menu > li:not(:last-child) {
+              border-bottom: 1px solid #444;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #offers {
+    .offers {
+      img {
+        width: 68%;
+      }
+
+      &--phone {
+        margin-left: 74px;
+
+        &__live {
+          width: 64%;
+          font-size: 15px;
+        }
+
+        &__btn {
+          margin: 21px 0;
+          width: 116px;
+          height: 34px;
+          font-size: 9px;
+        }
+
+        &__icon {
+          padding: 1px 0;
+          font-size: 14px;
+        }
+
+        &__brand {
+          font-size: 6px;
+          padding: 10px 0;
+        }
+      }
+
+      &--hand {
+        right: 90px;
+        bottom: 366px;
+
+        iframe {
+          width: 75px;
+          height: 134px;
+        }
+      }
+    }
+  }
+  #phones {
+    .phones {
+      &--word {
+        &__have {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  #time {
+    padding: 0 0 100px 0;
+
+    .time {
+      &--clock {
+        img {
+          width: 60%;
+        }
+
+        &__times {
+          font-size: 45px;
+          top: 77px;
+          left: 52px;
+        }
+
+        &__watch {
+          top: 41px;
+          left: 13px;
+        }
+      }
+
+      &--effect {
+        &__they {
+          font-size: 20px;
+        }
+
+        &__shrift {
+          font-size: 8px;
+        }
+
+        &__know a {
+          font-size: 9px;
+        }
+      }
+    }
+  }
+
+  #smil {
+    .smil {
+      .swiper-slide {
+        &__offer {
+          width: 385px;
+        }
+      }
+    }
+  }
+
+  #tables {
+    .tables {
+      margin-right: 35px;
+
+      &--nica {
+        margin-left: 45%;
+
+        &__close {
+          width: 91px;
+
+          &--smail {
+            font-size: 18px;
+          }
+
+          &--valute {
+            font-size: 11px;
+          }
+        }
+
+
+        &__close1 {
+          width: 91px;
+
+          &--webs {
+            position: relative;
+            width: 45px;
+
+            p {
+              top: 8px;
+              left: 4px;
+            }
+
+            img {
+              width: 100%;
+            }
+          }
+
+          &--one {
+            margin-right: 10px;
+
+            &--smail {
+              font-size: 10px;
+            }
+
+            &__valute {
+              font-size: 9px;
+            }
+          }
+        }
+      }
+
+      &--helps {
+        &__year {
+          width: 91px;
+
+          p {
+            color: #283645;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  #social {
+    .social {
+      img {
+        height: 24px;
+      }
+
+      &--network {
+        width: 25%;
+
+        a {
+          width: 26px;
+          height: 29px;
+        }
+
+        &__twitter {
+          width: 26px;
+          height: 26px;
+        }
+      }
+
+      &--week p {
+        font-size: 12px;
+      }
+
+      &--student {
+        width: 20%;
+        font-size: 12px;
+
+        .code {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  #cards {
+    .cards {
+      &--late {
+        font-size: 29px;
+      }
+
+      &--email {
+        &__telphone a {
+          font-size: 10px;
+        }
+
+        &__telphone {
+          &--call {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #phones {
+    .phones {
+      &--word {
+        &__have {
+          line-height: 29px;
+          margin: 41px 0;
+          width: 43%;
+          font-size: 25px;
+        }
+      }
+
+      &--circle {
+        display: flex;
+        justify-content: space-around;
+
+        &__help {
+          display: none;
+        }
+
+        &__stand {
+          display: none;
+        }
+
+        &__world {
+          display: flex;
+          align-items: center;
+          &--pink {
+            margin-top: 43vh;
+          }
+        }
+      }
+    }
+  }
+  #time {
+    .time {
+      &--effect {
+        &__they {
+          font-size: 15px;
+        }
+
+        &__shrift {
+          margin: 18px 0;
+          font-size: 8px;
+          line-height: 12px;
+        }
+
+        &__know {
+          font-size: 10px;
+        }
+      }
+
+      &--clock {
+        &__watch {
+          width: 97px;
+          height: 97px;
+        }
+
+        &__times {
+          font-size: 39px;
+          top: 76px;
+          left: 49px;
+        }
+      }
+
+    }
+  }
+  #smil {
+    .smil {
+      .swiper-slide {
+        &__icon {
+          font-size: 44px;
+
+        }
+
+        &__offer {
+          width: 313px;
+          line-height: 20px;
+        }
+
+        &__name {
+          font-size: 15px;
+        }
+
+        &__year {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  #tables {
+    .tables {
+      &--nica {
+        padding: 130px 0 0 0;
+        margin-left: 18%;
+
+        &__close {
+          width: 69px;
+          height: 58px;
+
+          &--smail {
+            font-size: 12px;
+          }
+        }
+
+        &__close1 {
+          width: 69px;
+          height: 58px;
+
+          &--one {
+            &__smail {
+              font-size: 12px;
+            }
+
+            &__valute {
+              font-size: 9px;
+              line-height: 12px;
+            }
+
+          }
+
+          &--webs p {
+            top: 11px;
+            left: 3px;
+            font-size: 9px;
+          }
+        }
+      }
+
+      &--helps {
+        width: 74%;
+
+        &__year {
+          width: 100%;
+
+          &--icon {
+            font-size: 15px;
+          }
+
+          &--icons {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  #cards {
+    .cards {
+      &--late {
+        font-size: 26px;
+      }
+    }
+  }
+  #offers {
+    .offers {
+      &--hand {
+        right: 63px;
+        top: 199px;
+        iframe {
+          width: 38px;
+          height: 75px;
+        }
+      }
+
+      img {
+        width: 42%;
+      }
+
+      &--phone {
+        &__live {
+          width: 67%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  #social {
+    .social {
+      &--network a {
+        width: 26px;
+        height: 26px;
+      }
+
+      &--student {
+        width: 30%;
+        font-size: 9px;
+
+        .code {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  #time {
+    .time {
+      &--effect {
+        width: 94%;
+      }
+
+      &--clock {
+        &__times {
+          font-size: 25px;
+          top: 52px;
+          left: 33px;
+        }
+
+        &__watch {
+          border: 5px solid #D22856;
+          width: 68px;
+          height: 63px;
+          top: 32px;
+          left: 12px;
+        }
+      }
+    }
+  }
+  #offers {
+    .offers {
+      &--hand {
+        right: 54px;
+        bottom: 398px;
+      }
+
+      img {
+        width: 54%;
+      }
+    }
+  }
+  #phones {
+    .phones {
+      &--word {
+        &__have {
+          line-height: 26px;
+          margin: 11px 0;
+          width: 54%;
+          font-size: 17px;
+        }
+      }
+
+      &--circle {
+        &__world {
+          &--pink {
+            margin-top: 52vh;
+          }
+        }
+      }
+    }
+  }
+  #tables {
+    .tables {
+      &--nica {
+        padding: 90px 0 0 0;
+        margin-left: 21%;
+
+        &__close {
+          width: 55px;
+        }
+
+        &__close1 {
+          width: 60px;
+
+          &--webs p {
+            top: 2px;
+            left: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  #offers {
+    .offers {
+      &--hand {
+        right: 64px;
+      }
+
+      &--phone {
+        margin-left: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #header {
+    .header {
+      img {
+        width: 50%;
+      }
+    }
+  }
+  #social {
+    .social {
+      &--network {
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  #offers {
+    .offers {
+      &--hand {
+          right: 63px;
+          top: 198px;
+      }
+    }
+  }
+  #phones {
+    .phones {
+      &--circle {
+        height: 41vh;
+        margin-right: 39%;
+
+        &__world {
+          &--pink {
+            &__next {
+              padding: 2px 0;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  #time {
+    padding: 60px 0 33px 0;
+
+    .time {
+      flex-direction: column;
+      display: flex;
+
+      &--clock {
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 40%;
+        }
+
+        &__watch {
+          width: 84px;
+          height: 83px;
+          top: 32px;
+          left: 101px;
+        }
+
+        &__times {
+          font-size: 31px;
+          top: 57px;
+          left: 129px;
+        }
+      }
+
+      &--effect {
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__shrift {
+          text-align: center;
+        }
+      }
+    }
+  }
+  #smil {
+    .smil {
+      .swiper-button-next {
+        display: none
+      }
+
+      .swiper-button-prev {
+        display: none
+      }
+
+      .swiper-slide {
+        &__offer {
+          font-size: 12px;
+          padding: 32px 0;
+        }
+      }
+    }
+  }
+  #tables {
+    padding: 5px 0;
+  }
+  #cards {
+    .cards {
+      &--email {
+        width: 90%;
+
+        &__telphone {
+          a {
+            font-size: 8px;
+          }
+
+          &--call {
+            font-size: 10px;
+          }
+        }
+      }
+
+      &--late {
+        font-size: 19px;
+      }
+    }
+  }
+  #social {
+    .social {
+    &--network a {
+        font-size: 9px;
+        width: 16px;
+        height: 16px;}
+      img {
+        height: 17px;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+}
+
+@media (max-width: 320px) {
+  #offers {
+    .offers {
+      &--hand {
+          right: 47px;
+          top: 206px;
+
+        iframe {
+          width: 32px;
+          height: 60px;
+        }
+      }
+    }
+  }
+  #tables {
+    .tables {
+      &--nica {
+        margin-left: 24%;
+      }
+
+      &--helps {
+        width: 93%;
+      }
+    }
+  }
+  #time {
+    .time {
+      &--clock {
+        &__watch {
+          top: 31px;
+          left: 97px;
+        }
+      }
+    }
+  }
+}

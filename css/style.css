@@ -1,0 +1,610 @@
+#header {
+  background: rgba(38, 39, 43, 0.3294117647);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+}
+#header .header {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+#header .header__hamburger__menu .menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style-type: none;
+}
+#header .header__hamburger__menu li a {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  transition: 0.4s;
+}
+#header .header__hamburger__menu li a:hover {
+  font-size: 15px;
+  color: palevioletred;
+  transform: scaleX(1.1);
+  text-decoration-line: underline;
+}
+#header .header__hamburger__menu #menu-toggle {
+  display: none;
+}
+
+#offers {
+  background: url("../img/back-desktop.png") no-repeat center/cover;
+  padding: 150px 0 0 0;
+}
+#offers .offers {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+#offers .offers--phone {
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  animation: phoneKey 1000ms;
+  animation-iteration-count: 2;
+}
+#offers .offers--phone__live {
+  width: 70%;
+  font-weight: 300;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+#offers .offers--phone__btn {
+  margin: 30px 0;
+  color: rgb(255, 255, 255);
+  width: 250px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 29px;
+  background: transparent;
+  transition: 0.4s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+#offers .offers--phone__btn:hover {
+  background: white;
+  color: rgba(126, 55, 129, 0.53);
+  cursor: pointer;
+  transform: scaleX(1.1);
+}
+#offers .offers--phone__icon {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  font-size: 35px;
+}
+#offers .offers--phone__icon a {
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+}
+#offers .offers--phone__icon a:hover {
+  color: #1588e8;
+  font-size: 25px;
+  transform: scaleX(1.1);
+}
+#offers .offers--phone__brand {
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+}
+@keyframes phoneKey {
+  from {
+    transform: translateY(-200%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+#offers .offers--hand {
+  position: absolute;
+  right: 280px;
+  bottom: 185px;
+  animation: handKey 1000ms;
+  animation-iteration-count: 2;
+}
+#offers .offers--hand iframe {
+  width: 195px;
+  height: 350px;
+}
+@keyframes handKey {
+  from {
+    transform: translateY(200%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+#offers .offers img {
+  width: 64%;
+  animation: handKey 1000ms;
+  animation-iteration-count: 2;
+}
+
+#phones {
+  background-image: linear-gradient(-5deg, #f2f2f2 60%, transparent 10%);
+}
+#phones .phones--word {
+  justify-content: center;
+  display: flex;
+}
+#phones .phones--word__have {
+  margin: 50px 0;
+  width: 43%;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  text-align: center;
+  color: #283645;
+}
+#phones .phones--circle {
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  background-image: linear-gradient(-10deg, #f2f2f2 70%, transparent 10%);
+}
+#phones .phones--circle__stand--image {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+#phones .phones--circle__stand--image__apple {
+  position: relative;
+}
+#phones .phones--circle__stand--image__apple--img {
+  position: absolute;
+  width: 170px;
+  top: 43px;
+  left: 8px;
+}
+#phones .phones--circle__stand--pink {
+  position: absolute;
+  height: 179px;
+  background: #F2F2F2;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45vh;
+}
+#phones .phones--circle__stand--pink__next {
+  padding: 30px 0;
+  width: 75%;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+}
+#phones .phones--circle__stand--pink__fixed {
+  width: 193px;
+  text-align: center;
+  font-size: 15px;
+  color: #283645;
+  display: flex;
+  align-items: center;
+}
+#phones .phones--circle__help--image {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+#phones .phones--circle__help--image__apple {
+  position: relative;
+}
+#phones .phones--circle__help--image__apple--img {
+  position: absolute;
+  width: 170px;
+  top: 43px;
+  left: 8px;
+}
+#phones .phones--circle__help--pink {
+  position: absolute;
+  height: 179px;
+  background: #F2F2F2;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45vh;
+}
+#phones .phones--circle__help--pink__next {
+  padding: 30px 0;
+  width: 75%;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+}
+#phones .phones--circle__help--pink__fixed {
+  width: 193px;
+  text-align: center;
+  font-size: 15px;
+  color: #283645;
+  display: flex;
+  align-items: center;
+}
+#phones .phones--circle__world--image {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+#phones .phones--circle__world--image__apple {
+  position: relative;
+}
+#phones .phones--circle__world--image__apple--img {
+  position: absolute;
+  width: 170px;
+  top: 43px;
+  left: 8px;
+}
+#phones .phones--circle__world--pink {
+  position: absolute;
+  height: 179px;
+  background: #F2F2F2;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45vh;
+}
+#phones .phones--circle__world--pink__next {
+  padding: 30px 0;
+  width: 75%;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+}
+#phones .phones--circle__world--pink__fixed {
+  width: 193px;
+  text-align: center;
+  font-size: 15px;
+  color: #283645;
+  display: flex;
+  align-items: center;
+}
+
+#time {
+  background: #F2F2F2;
+  padding: 100px 0;
+}
+#time .time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  display: flex;
+  justify-content: space-evenly;
+}
+#time .time--clock {
+  position: relative;
+  animation: clockKey 150ms alternate infinite cubic-bezier(0.2, 0.65, 0.6, 1);
+}
+#time .time--clock__times {
+  position: absolute;
+  top: 120px;
+  left: 85px;
+  font-size: 120px;
+  color: #D22856;
+}
+#time .time--clock__watch {
+  position: absolute;
+  top: 73px;
+  left: 26px;
+  border: 18px solid #D22856;
+  border-radius: 50%;
+  width: 212px;
+  height: 212px;
+}
+@keyframes clockKey {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+#time .time--effect {
+  width: 50%;
+}
+#time .time--effect__they {
+  font-size: 30px;
+}
+#time .time--effect__shrift {
+  margin: 30px 0;
+  width: 80%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+}
+#time .time--effect__know {
+  display: flex;
+  align-items: center;
+  color: #D22856;
+}
+#time .time--effect__know:hover {
+  text-decoration-line: underline;
+}
+
+#smil .smil .swiper {
+  width: 100%;
+  height: 100%;
+}
+#smil .smil .swiper-button-next {
+  color: rgba(34, 34, 34, 0.66);
+}
+#smil .smil .swiper-button-prev {
+  color: rgba(34, 34, 34, 0.66);
+}
+#smil .smil .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#smil .smil .swiper-slide__icon {
+  font-size: 85px;
+  color: gray;
+}
+#smil .smil .swiper-slide__offer {
+  padding: 60px 0;
+  width: 688px;
+  height: 73px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  color: #283645;
+}
+#smil .smil .swiper-slide__year {
+  justify-content: center;
+  display: flex;
+  font-weight: 300;
+  text-align: center;
+  color: #283645;
+  font-size: 18px;
+  padding: 10px 0;
+}
+#smil .smil .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#tables {
+  background-image: linear-gradient(-5deg, #f2f2f2 70%, transparent 10%);
+  padding: 100px 0;
+}
+#tables .tables {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 15%;
+}
+#tables .tables--nica {
+  padding: 200px 0 0 0;
+  display: flex;
+  margin-left: 52%;
+}
+#tables .tables--nica__close1 {
+  width: 233px;
+  height: 94px;
+  background: #283645;
+  border: 2px solid #F2F2F2;
+  border-radius: 1px 0 0 0;
+  display: flex;
+}
+#tables .tables--nica__close1--webs {
+  position: relative;
+}
+#tables .tables--nica__close1--webs p {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  color: rgb(255, 255, 255);
+}
+#tables .tables--nica__close1--one {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+#tables .tables--nica__close1--one__valute {
+  color: rgba(255, 255, 255, 0.81);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+#tables .tables--nica__close {
+  width: 233px;
+  height: 94px;
+  background: #283645;
+  border: 2px solid #F2F2F2;
+  border-radius: 1px 0 0 0;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+#tables .tables--nica__close--smail {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#tables .tables--nica__close--valute {
+  color: rgba(255, 255, 255, 0.81);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+#tables .tables--nica__close--webs__look {
+  position: absolute;
+  top: 10px;
+}
+#tables .tables--nica__close--webs__look {
+  transform: rotate(-45deg);
+  top: 0;
+}
+#tables .tables--helps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 50%;
+}
+#tables .tables--helps__year {
+  width: 234px;
+  height: 59px;
+  background: #FFFFFF;
+  border: 2px solid #E5E5E5;
+  border-radius: 1px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+#tables .tables--helps__year p {
+  color: #283645;
+  font-size: 18px;
+}
+#tables .tables--helps__year--icon {
+  color: rgba(45, 161, 45, 0.96);
+  font-size: 25px;
+}
+#tables .tables--helps__year--icons {
+  color: rgba(255, 0, 0, 0.77);
+  font-size: 25px;
+}
+
+#cards .cards--map iframe {
+  width: 100%;
+  height: 602px;
+}
+#cards .cards {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+#cards .cards--late {
+  padding: 30px 0;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  color: #283645;
+}
+#cards .cards--email {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#cards .cards--email__telphone--call {
+  font-size: 18px;
+  padding: 20px 0;
+}
+#cards .cards--email__telphone a {
+  font-size: 20px;
+  color: #D22856;
+}
+#cards .cards--map {
+  clip-path: polygon(100% 100%, 54% 100%, 0 100%, 0 0, 50% 21%, 100% 0);
+  height: 50%;
+  animation: mapKey 1000ms;
+  animation-iteration-count: 3;
+}
+@keyframes mapKey {
+  from {
+    transform: translateY(200%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+#social {
+  padding: 40px 0;
+}
+#social .social {
+  display: flex;
+  justify-content: space-between;
+}
+#social .social img {
+  height: 25%;
+}
+#social .social--network {
+  width: 18%;
+  display: flex;
+  justify-content: space-around;
+}
+#social .social--network a {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(128, 128, 128, 0.16);
+  border-radius: 50%;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  color: #D22856;
+}
+#social .social--network a:hover {
+  border: 3px solid rgba(128, 128, 128, 0.16);
+  box-shadow: 0 5px 50px 0 #ad1f1f inset, 0 5px 50px 0 #da7474;
+}
+#social .social--student {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+#social .social--student .code {
+  color: #D22856;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */
